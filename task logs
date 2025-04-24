@@ -1,0 +1,13 @@
+Task Management System – Developer Log
+
+Developer Name: Raj
+Date: 25-Apr-2025
+Project: MERN Task Management System
+Duration: 4 hours (Logged every 30 minutes)
+Time	Task Description	Status	Notes/Next Steps
+1:00 – 1:30	Designed database schema for users, roles, and tasks	✅ Done	Need to create associations (manager–employee)
+1:30 – 2:00	Implemented role-based access control in backend	✅ Done	Testing required for permission restrictions
+2:00 – 2:30	Connected manager filter to fetch employees assigned under them	✅ Done	Added API call for fetching employees dynamically
+2:00 – 2:30	Created task creation module with manager selection logic	🕓 In Prog.	Add validation + task list view
+2:00 – 2:30	Integrated task view by employee login	🕓 In Prog.	Filter based on task status (todo/in progress)
+2:00 – 2:30	Added JWT auth with route protection by role	✅ Done	Need to handle expired tokens
